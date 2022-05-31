@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	Lars Martin Sandbakken | IT | @lmsandbakken @marslartin
+	
+    Haakon Bredrup | owner | @hmbjr
+    Marte Undereidet | cand. design
+
+# THANKS
+
+    Ida Lahm | logo designer | @idalahm | https://idalahm.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr, Bootstrap
+    Espresso

@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="keywords" content="hos haakon, møbler, møbelforretning, tromsø, tromsø sentrum, haakon bredrup">
+	
+	<meta name="description" content="Møbelbutikken i hjertet av Tromsø. Vi fører en rekke kjente møbel- og interiørmerker fra norden og rundt om i verden. Vårt fokus er slitesterke og tidløse møbler fra leverandører med hjerte for godt håndverk. Velkommen inn til oss!">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" id="viewport-meta" />
+	<script type="text/javascript">
+		var viewport_meta = document.getElementById('viewport-meta');
+		
+		// Define our viewport meta values
+		var viewports = {
+				default: viewport_meta.getAttribute('content'),
+				landscape: 'width=900'
+			};
+		
+		// Change the viewport value based on screen.width
+		var viewport_set = function() {
+				if ( screen.width > 768 )
+					viewport_meta.setAttribute( 'content', viewports.landscape );
+				else
+					viewport_meta.setAttribute( 'content', viewports.default );
+			}
+		
+		// Set the correct viewport value on page load
+		viewport_set();
+		
+		// Set the correct viewport after device orientation change or resize
+		window.onresize = function() { 
+			viewport_set(); 
+		}
+	</script>
+	
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="style.css?20200320-1524211">
+	
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="./css/extra-style.css">
+	
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+	
+	<title>Hos Haakon – designmøbler i Tromsø</title>
+	
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function() {
+	window.cookieconsent.initialise({
+		"palette": {
+			"popup": {
+				"background": "#e8e8e8",
+				"text": "#1A1919"
+			},
+			"button": {
+				"background": "transparent",
+				"text": "#1A1919",
+				"border": "#1A1919"
+			}
+		},
+		"content": {
+			"message": "Denne siden bruker informasjonskapsler for å optimalisere brukeropplevelsen.",
+			"dismiss": "⤬",
+			"link": "Personvernerklæring",
+			"href": "/personvern.html"
+		}
+	})
+});
+	</script>
+	<meta name="format-detection" content="telephone=no">
+	    
+	<!-- Analytics -->
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132228749-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag() {
+	dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+gtag('config', 'UA-132228749-1');
+	</script>
+	<!-- Analytics END -->
+	
+	<meta property="og:url" content="https://hoshaakon.no" />
+	<meta property="og:title" content="HOS HAAKON – desingmøbler og interiør" />
+	<meta property="og:description" content="Møbelbutikken i hjertet av Tromsø. Vi fører en rekke kjente møbel- og interiørmerker fra norden og rundt om i verden. Vårt fokus er slitesterke og tidløse møbler fra leverandører med hjerte for godt håndverk." />
+	<meta property="og:image" content="https://hoshaakon.no/img/FB-jnauar.png" />
+</head>
+<body>
+	<!-- Main container -->
+	<div class="page-container">
+	    
+		<!-- header -->
+		<div class="bloc bgc-dark-jungle-green d-bloc sticky-nav d-sm-flex d-flex" id="header">
+			<div id="mySidenav" class="sidemeny bgc-dark-grey">
+			  <a href="javascript:void(0)" class="closebtn bold" onclick="closeNav()">⤬</a>
+			  <!--<a href="/lagervarer/">Lagerførte varer</a>-->
+			  <a href="/leverandorer/">Leverandører</a>
+			  <a href="/om/">Om oss</a>
+			  <a href="/salgsbetingelser/">Salgsbetingelser</a>
+			  <a href="/personvern/">Personvern</a>
+			</div>
+			<div class="container ">
+				<div class="row">
+					<div class="col-12">
+						<nav class="navbar navbar-light row navbar-expand-md d-flex" role="navigation">
+							<div class="navbar-content-area col">
+								<div class="row">
+									<div class="col" style="height: 40px; align-content: left;">
+										<a href="/">
+											<img draggable="false" src="/img/h/hoshaakon.svg" alt="HOS HAAKON" />
+										</a>
+									</div>
+									<div class="col align-self-center">
+										<div class="float-sm-right float-right float-lg-right d-block">
+											<a class="burger" onclick="openNav()">
+												<img draggable="false" src="/img/h/burger.svg" alt="MENY" />
+												</svg>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			}
+			
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+		<!-- header END -->
+		
+		<!-- page content --><div class="content-wrap">
+		<div class="bloc bg-dark">
+			<div class="container ">
+				<div class="row voffset">
+					<div class="col" style="width: 100vw;">
+						<img class="pt-3" style="width: 100%;" src="/img/h/Hos-Haakon-april-2020-foto_Terje-Arntsen_2-of-19.jpg" alt="Bilde av Haakon som står midt blant møbler. Foto av Terje Arntsen." title="Fotograf: Terje Arntsen 04/2020" />
+						<h1 class="text-center light_text pt-5"><strong>Ny nettbutikk kommer</strong></h1>
+						<p class="text-center light_text pt-5">
+							Leter du etter nettbutikken vår? Vi har tatt den ned for en periode. Vi holder på å utvikle en ny og bedre nettbutikk som er mer helhetlig, og vil gi deg som kunde en bedre handleopplevelse. Vi har ikke kapasitet å drifte den gamle nettbutikken og holde den oppdatert mens vi jobber med å få ferdigstilt den nye. 
+						</p>
+						<p class="text-center light_text pt-2">
+							Dersom du ønsker hjelp til å finne produkter, men ikke kommer deg til butikken, ta kontakt på <a class="link_ light_text" href="mailto:post@hoshaakon.no" alt="post@hoshaakon.no">e-post</a>, så hjelper vi deg.
+						</p>
+						<p class="text-center light_text pt-2 pb-5">
+							Vi gleder oss til å presentere den nye nettsiden vår med ny nettbutikk!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bloc">
+			<div class="container ">
+				<div class="row voffset">
+					<div class="col pt-5" style="width: 100vw;">
+						<h1 class="text-center  pt-2"><strong>VIRTUELL OMVISNING</strong></h1>
+						<p class="text-center ">Har du lyst å se deg om i butukken, men uten mulighet til å komme innom? Nå kan du se hele butikken fra din egen stue. Vi har fått fotografert hele butikken i 360 grader slik at du kan bevege deg gjennom alle etasjene. På mange av produktene kan du klikke på en ⓘ for å få informasjon om produktnavn og pris.</p>
+					</div>
+				</div>
+				<div class="row voffset pt-1">
+					<div class="col text-center">
+						<a class="btn btn-lg knapp" href="https://interarctic.no/Hoshaakon360" target="_blank"><i class="bi bi-globe2"></i>&nbsp;&nbsp;&nbsp;SE DEG OM</a>
+						
+						<p><br /></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		</div><!-- page content END -->
+		
+		<!-- footer -->
+		<footer class="d-bloc d-sm-flex d-none none" id="footer">
+			<div class="container ">
+				<hr />
+				<div class="row footer">
+					<div class="col-sm-6 col-md-4 col-lg-3 align-self-center col-12 offset-0">
+						<h3 class="mg-md text-sm-left text-center h3-hos-haakon-as-style mx-auto d-block" style="padding-left: 10px;">Hos Haakon AS</h3>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 offset-lg-6 col-lg-3 offset-md-4 align-self-center">
+						<div class="text-lg-right text-center container-div-style card-columns"><a href="https://facebook.com/hoshaakon" target="_blank">
+							<img src="/img/lazyload-ph.png" data-src="/img/facebook-logo.png" class="img-fluid mx-auto d-block footer-icon lazyload" srcset="/img/facebook-logo@2x.png 2x, /img/facebook-logo@3x.png 3x" alt="Facebook" /></a><a href="https://m.me/hoshaakon" target="_blank">
+								<img src="/img/lazyload-ph.png" data-src="/img/messenger-logo.png" class="img-fluid mx-auto d-block footer-icon lazyload" srcset="/img/messenger-logo@2x.png 2x, /img/messenger-logo@3x.png 3x" alt="Messenger" /></a><a href="https://instagram.com/hoshaakon" target="_blank">
+							<img src="/img/lazyload-ph.png" data-src="/img/instagram-logo.png" class="img-fluid mx-auto d-block footer-icon lazyload" srcset="/img/instagram-logo@2x.png 2x, /img/instagram-logo@3x.png 3x" alt="Instagram" /></a></div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-12">
+								<div class="  mini_label">Hos Haakon AS &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+									<br>Organisasjonsnummer 922 106 304
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer END -->
+		
+		<!-- footer-m -->
+		<footer class="bloc d-bloc full-width-bloc   d-sm-none d-flex" id="footer-m">
+			<div class="container ">
+				<hr />
+				
+				<div class="row footer">
+					<div class="col-sm-6 col-md-4 col-lg-3 align-self-center col-12 offset-0">
+						<h3 class="mg-md text-sm-left text-center h3-hos-haakon-as-style mx-auto d-block">Hos Haakon AS</h3>
+						
+						<div class="row">
+							<div class="col align-self-center  offset-0"><a href="https://facebook.com/hoshaakon" class="float-right" target="_blank">
+							<img src="/img/lazyload-ph.png" data-src="/img/facebook-logo.png" class="img-fluid mx-auto d-block footer-icon lazyload" srcset="/img/facebook-logo@2x.png 2x, /img/facebook-logo@3x.png 3x" alt="Facebook" /></a></div>
+							
+							<div class="align-self-center  col-4"><a href="https://m.me/hoshaakon" target="_blank">
+							<img src="/img/lazyload-ph.png" data-src="/img/messenger-logo.png" class="img-fluid mx-auto d-block footer-icon lazyload" srcset="/img/messenger-logo@2x.png 2x, /img/messenger-logo@3x.png 3x" alt="Messenger" /></a></div>
+							
+							<div class="col d-flex order-0 offset-0"><a href="https://instagram.com/hoshaakon" target="_blank">
+							<img src="/img/lazyload-ph.png" data-src="/img/instagram-logo.png" class="img-fluid footer-icon float-none lazyload" srcset="/img/instagram-logo@2x.png 2x, /img/instagram-logo@3x.png 3x" alt="Instagram" /></a></div>
+							
+							<div class="col-12">
+								<div class="row">
+									<div class="col-12">
+										<div class="  mini_label">Hos Haakon AS &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+											<br>Organisasjonsnummer 922 106 304
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer-m END -->
+	</div>
+	<!-- Main container END -->
+	    
+	
+	<script src="./js/jquery-3.3.1.min.js?1308"></script>
+	<script src="./js/bootstrap.bundle.min.js?3340"></script>
+	<script src="./js/blocs.min.js?2634"></script>
+	<script src="./js/lazysizes.min.js" defer></script>
+	<!-- Additional JS END -->
+	<?php wp_footer(); ?>
+</body>
+</html>

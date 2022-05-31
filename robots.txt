@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /kundeklubb/
+Disallow: /om/
+
+
+Sitemap: https:/www.hoshaakon.no/sitemap.xml
